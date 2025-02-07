@@ -1,7 +1,7 @@
 # <img src="/src/icon.png" height="30px"> Verify.GemBox
 
 [![Discussions](https://img.shields.io/badge/Verify-Discussions-yellow?svg=true&label=)](https://github.com/orgs/VerifyTests/discussions)
-[![Build status](https://ci.appveyor.com/api/projects/status/hkr80o3jgok632nw?svg=true)](https://ci.appveyor.com/project/SimonCropp/Verify-GemBox)
+[![Build Status](https://github.com/Actemium-Agri/Verify.GemBox/actions/workflows/build.yml/badge.svg)](https://github.com/Actemium-Agri/Verify.GemBox/actions/workflows/build.yml)
 [![NuGet Status](https://img.shields.io/nuget/v/Verify.GemBox.svg)](https://www.nuget.org/packages/Verify.GemBox/)
 
 Extends [Verify](https://github.com/VerifyTests/Verify) to allow verification of documents via [GemBox](https://www.gemboxsoftware.com/).

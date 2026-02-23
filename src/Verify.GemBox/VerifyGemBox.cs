@@ -5,7 +5,7 @@ namespace VerifyTests;
 
 public static partial class VerifyGemBox
 {
-    public static bool Initialized { get; private set; }
+   public static bool Initialized { get; set; }
 
     public static void Initialize()
     {
@@ -16,19 +16,19 @@ public static partial class VerifyGemBox
 
         Initialized = true;
 
-        VerifierSettings.RegisterFileConverter("xlsx", ConvertExcel);
-        VerifierSettings.RegisterFileConverter("xls", ConvertExcel);
+        VerifierSettings.RegisterStreamConverter("xlsx", ConvertExcel);
+        VerifierSettings.RegisterStreamConverter("xls", ConvertExcel);
         VerifierSettings.RegisterFileConverter<ExcelFile>(ConvertExcel);
 
-        VerifierSettings.RegisterFileConverter("pdf", ConvertPdf);
+        VerifierSettings.RegisterStreamConverter("pdf", ConvertPdf);
         VerifierSettings.RegisterFileConverter<PdfDocument>(ConvertPdf);
 
-        VerifierSettings.RegisterFileConverter("docx", ConvertDocx);
-        VerifierSettings.RegisterFileConverter("doc", ConvertDoc);
+        VerifierSettings.RegisterStreamConverter("docx", ConvertDocx);
+        VerifierSettings.RegisterStreamConverter("doc", ConvertDoc);
         VerifierSettings.RegisterFileConverter<DocumentModel>(ConvertWord);
 
-        VerifierSettings.RegisterFileConverter("pptx", ConvertPptx);
-        VerifierSettings.RegisterFileConverter("ppt", ConvertPpt);
+        VerifierSettings.RegisterStreamConverter("pptx", ConvertPptx);
+        VerifierSettings.RegisterStreamConverter("ppt", ConvertPpt);
         VerifierSettings.RegisterFileConverter<PresentationDocument>(ConvertPowerPoint);
     }
 }

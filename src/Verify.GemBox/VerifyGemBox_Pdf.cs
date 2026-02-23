@@ -8,7 +8,7 @@ namespace VerifyTests;
 
 public static partial class VerifyGemBox
 {
-    static ConversionResult ConvertPdf(Stream stream, IReadOnlyDictionary<string, object> settings)
+    static ConversionResult ConvertPdf(string extension, Stream stream, IReadOnlyDictionary<string, object> settings)
     {
         using var document = PdfDocument.Load(stream, PdfLoadOptions.Default);
 

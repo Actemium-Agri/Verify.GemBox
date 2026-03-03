@@ -44,6 +44,20 @@
           "Verify": "27.0.0"
         }
       },
+      "Verify.ImageMagick": {
+        "type": "Direct",
+        "requested": "[3.8.4, )",
+        "resolved": "3.8.4",
+        "contentHash": "5/Wt7ASgxOJJcl5tPkRqdIpDqGjElso/bSUBSLs08DM3SfKOCr2GsCsUpfmKbkouL3j/nH36RuyUT7h3k9lP2g==",
+        "dependencies": {
+          "Argon": "0.33.5",
+          "DiffEngine": "18.4.2",
+          "EmptyFiles": "8.17.2",
+          "Magick.NET-Q16-AnyCPU": "14.10.3",
+          "SimpleInfoName": "3.2.0",
+          "Verify": "31.13.2"
+        }
+      },
       "Verify.NUnit": {
         "type": "Direct",
         "requested": "[31.13.2, )",
@@ -103,6 +117,19 @@
         "type": "Transitive",
         "resolved": "7.3.0.3",
         "contentHash": "RPxRXD16KtSs8Yxr2RK9Qs7AwyN9MlpqZIYs0AvfaJwl7RAtVhC0+u2f2SKwX0uMYYd3O98Z+OBA1sj6aWVKQA=="
+      },
+      "Magick.NET-Q16-AnyCPU": {
+        "type": "Transitive",
+        "resolved": "14.10.3",
+        "contentHash": "kSMjee72iMUxoZJrEO0hnNTBYXrBBAO0sauVjK2p92gRFO5v6sWUCuSIUruRAd6OBOm3vlFHbrx2uQkA/EJMwQ==",
+        "dependencies": {
+          "Magick.NET.Core": "14.10.3"
+        }
+      },
+      "Magick.NET.Core": {
+        "type": "Transitive",
+        "resolved": "14.10.3",
+        "contentHash": "Shb3KrAMFB49+j7nJ2uVbNBuGg+rEAoOpIDmR2A/sSbQ21l4vrPY8Py90chcndGcjzvhqZWk69SMmb8v5esOjA=="
       },
       "Microsoft.ApplicationInsights": {
         "type": "Transitive",

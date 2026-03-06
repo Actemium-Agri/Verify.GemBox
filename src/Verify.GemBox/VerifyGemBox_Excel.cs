@@ -8,7 +8,7 @@ namespace VerifyTests;
 
 public static partial class VerifyGemBox
 {
-    static ConversionResult ConvertExcel(Stream stream, IReadOnlyDictionary<string, object> settings)
+    static ConversionResult ConvertExcel(string extension, Stream stream, IReadOnlyDictionary<string, object> settings)
     {
         var workbook = ExcelFile.Load(stream);
         return ConvertExcel(workbook, settings);

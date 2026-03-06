@@ -10,10 +10,10 @@ namespace VerifyTests;
 
 public static partial class VerifyGemBox
 {
-    static ConversionResult ConvertDocx(Stream stream, IReadOnlyDictionary<string, object> settings) =>
+    static ConversionResult ConvertDocx(string extension, Stream stream, IReadOnlyDictionary<string, object> settings) =>
         Convert(stream, settings, LoadOptions.DocxDefault);
 
-    static ConversionResult ConvertDoc(Stream stream, IReadOnlyDictionary<string, object> settings) =>
+    static ConversionResult ConvertDoc(string extension, Stream stream, IReadOnlyDictionary<string, object> settings) =>
         Convert(stream, settings, LoadOptions.DocDefault);
 
     static ConversionResult Convert(Stream stream, IReadOnlyDictionary<string, object> settings, LoadOptions loadOptions)

@@ -19,6 +19,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
     - name: Setup .NET ${{ matrix.dotnet-version }}
       uses: actions/setup-dotnet@v4
       with:
@@ -29,3 +31,59 @@ jobs:
       run: dotnet build src/Verify.GemBox.sln --no-restore
     - name: Test
       run: dotnet test src/Verify.GemBox.sln --no-build --verbosity normal
+
+  publish:
+    needs: build
+    if: github.event_name == 'push'
+    runs-on: windows-latest
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 10.0.x
+
+    - name: Install GitVersion
+      uses: gittools/actions/gitversion/setup@v4.2.0
+      with:
+        versionSpec: '6.6.x'
+
+    - name: Determine Version
+      id: version_step
+      uses: gittools/actions/gitversion/execute@v4.2.0
+
+    - name: Transform Version
+      id: transformed_version_step
+      shell: pwsh
+      run: |
+        $version = "${{ steps.version_step.outputs.FullSemVer }}" -replace '\+', '-'
+        echo "NuGetSemVer=$version" >> $env:GITHUB_OUTPUT
+
+    - name: Restore dependencies
+      run: dotnet restore src/Verify.GemBox.sln
+
+    - name: Build
+      run: dotnet build src/Verify.GemBox.sln --no-restore --configuration Release /p:Version=${{ steps.version_step.outputs.FullSemVer }}
+
+    - name: Pack
+      run: dotnet pack src/Verify.GemBox.sln --no-build --configuration Release --output ./nupkgs /p:Version=${{ steps.transformed_version_step.outputs.NuGetSemVer }}
+
+    - name: NuGet login (OIDC → temp API key)
+      uses: NuGet/login@v1
+      id: login
+      with:
+        user: ${{ secrets.NUGET_USER }}
+
+    - name: Push to NuGet
+      shell: pwsh
+      run: |
+        Get-ChildItem ./nupkgs -Filter *.nupkg | ForEach-Object {
+          dotnet nuget push $_.FullName `
+            --api-key "${{ steps.login.outputs.NUGET_API_KEY }}" `
+            --source https://api.nuget.org/v3/index.json
+        }

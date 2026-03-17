@@ -34,7 +34,6 @@ jobs:
 
   publish:
     needs: build
-    if: github.event_name == 'push'
     runs-on: windows-latest
     permissions:
       contents: read

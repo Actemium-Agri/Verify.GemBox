@@ -4,9 +4,9 @@
     ".NETFramework,Version=v4.8": {
       "GemBox.Document": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "RpHGpyvbxBJViTdVsmFnEvc1NQIjm/mNoj1K1ZMefNDNvqmI6/ZOuxBjT+50kRANN5SuXbcFyguaTIgn0gQopA==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "YX7IyZRs6cFGzmxQibXnUKhNUmj/FywUKQ3PRWB9R9TrdmnFxp3+g7JAdO94kMT8Fl6zEbvnRGuZq3SNAcc19g==",
         "dependencies": {
           "BouncyCastle.Cryptography": "2.4.0",
           "HarfBuzzSharp": "7.3.0.3",
@@ -19,9 +19,9 @@
       },
       "GemBox.Pdf": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Th3S19QWoN+52GT2K9zcl2XhyrKjNTlAtT0AnzhTMbhr7k6pbfhZFtUedGAlZGeCH2mBO1K0m9/Q9NgVp3zBng==",
+        "requested": "[2026.3.102, )",
+        "resolved": "2026.3.102",
+        "contentHash": "LUqokT7XvCONWIe4hL3oOjLyypI47tRAsthCloXu7Z9x+VjaIVS+LlcKhiqXuQg4fzmN4IC6N2gBNr8AjvbovA==",
         "dependencies": {
           "BouncyCastle.Cryptography": "2.4.0",
           "HarfBuzzSharp": "7.3.0.3",
@@ -35,9 +35,9 @@
       },
       "GemBox.Presentation": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "PwVVQf2EQ4nNJmovrhYvw9sZxQ4mioLKMv0uJTKfj2onVWTxQnUynMZx5qYljZJt/N+gZOgHJto0isk+RupZ5A==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "it2AcJSuBZYB6iY/cneEdgZ8ZZW8bNpKc90574aiOlNzNAkh6kXgcAzf3GgyBh+f55X/XzE/wIacJuuQ10phdQ==",
         "dependencies": {
           "BouncyCastle.Cryptography": "2.4.0",
           "Microsoft.Bcl.Numerics": "9.0.0",
@@ -49,9 +49,9 @@
       },
       "GemBox.Spreadsheet": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Zz9YhBlMIeLKdNA5mb4/2GnRFMBHvHlmL4Aibl62WYByzXIlZjDiCPzfZgQG98b1/o0o/2GVHlofeKWsIU7S2g==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "4AT84JRaKzjEhffS2B1ChBpWX0PU/G1vHcGb6JqZCWxqZ+BQ1GcdbMazmx2UJyd9bXdhn4tC4CSNS3BwFAonMQ==",
         "dependencies": {
           "BouncyCastle.Cryptography": "2.4.0",
           "HarfBuzzSharp": "7.3.0.3",
@@ -221,9 +221,9 @@
     "net10.0": {
       "GemBox.Document": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "RpHGpyvbxBJViTdVsmFnEvc1NQIjm/mNoj1K1ZMefNDNvqmI6/ZOuxBjT+50kRANN5SuXbcFyguaTIgn0gQopA==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "YX7IyZRs6cFGzmxQibXnUKhNUmj/FywUKQ3PRWB9R9TrdmnFxp3+g7JAdO94kMT8Fl6zEbvnRGuZq3SNAcc19g==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -235,9 +235,9 @@
       },
       "GemBox.Pdf": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Th3S19QWoN+52GT2K9zcl2XhyrKjNTlAtT0AnzhTMbhr7k6pbfhZFtUedGAlZGeCH2mBO1K0m9/Q9NgVp3zBng==",
+        "requested": "[2026.3.102, )",
+        "resolved": "2026.3.102",
+        "contentHash": "LUqokT7XvCONWIe4hL3oOjLyypI47tRAsthCloXu7Z9x+VjaIVS+LlcKhiqXuQg4fzmN4IC6N2gBNr8AjvbovA==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -250,9 +250,9 @@
       },
       "GemBox.Presentation": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "PwVVQf2EQ4nNJmovrhYvw9sZxQ4mioLKMv0uJTKfj2onVWTxQnUynMZx5qYljZJt/N+gZOgHJto0isk+RupZ5A==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "it2AcJSuBZYB6iY/cneEdgZ8ZZW8bNpKc90574aiOlNzNAkh6kXgcAzf3GgyBh+f55X/XzE/wIacJuuQ10phdQ==",
         "dependencies": {
           "Microsoft.Bcl.Numerics": "9.0.0",
           "Portable.BouncyCastle": "1.9.0",
@@ -262,9 +262,9 @@
       },
       "GemBox.Spreadsheet": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Zz9YhBlMIeLKdNA5mb4/2GnRFMBHvHlmL4Aibl62WYByzXIlZjDiCPzfZgQG98b1/o0o/2GVHlofeKWsIU7S2g==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "4AT84JRaKzjEhffS2B1ChBpWX0PU/G1vHcGb6JqZCWxqZ+BQ1GcdbMazmx2UJyd9bXdhn4tC4CSNS3BwFAonMQ==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -381,9 +381,9 @@
     "net6.0": {
       "GemBox.Document": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "RpHGpyvbxBJViTdVsmFnEvc1NQIjm/mNoj1K1ZMefNDNvqmI6/ZOuxBjT+50kRANN5SuXbcFyguaTIgn0gQopA==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "YX7IyZRs6cFGzmxQibXnUKhNUmj/FywUKQ3PRWB9R9TrdmnFxp3+g7JAdO94kMT8Fl6zEbvnRGuZq3SNAcc19g==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -395,9 +395,9 @@
       },
       "GemBox.Pdf": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Th3S19QWoN+52GT2K9zcl2XhyrKjNTlAtT0AnzhTMbhr7k6pbfhZFtUedGAlZGeCH2mBO1K0m9/Q9NgVp3zBng==",
+        "requested": "[2026.3.102, )",
+        "resolved": "2026.3.102",
+        "contentHash": "LUqokT7XvCONWIe4hL3oOjLyypI47tRAsthCloXu7Z9x+VjaIVS+LlcKhiqXuQg4fzmN4IC6N2gBNr8AjvbovA==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -410,9 +410,9 @@
       },
       "GemBox.Presentation": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "PwVVQf2EQ4nNJmovrhYvw9sZxQ4mioLKMv0uJTKfj2onVWTxQnUynMZx5qYljZJt/N+gZOgHJto0isk+RupZ5A==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "it2AcJSuBZYB6iY/cneEdgZ8ZZW8bNpKc90574aiOlNzNAkh6kXgcAzf3GgyBh+f55X/XzE/wIacJuuQ10phdQ==",
         "dependencies": {
           "Microsoft.Bcl.Numerics": "9.0.0",
           "Portable.BouncyCastle": "1.9.0",
@@ -422,9 +422,9 @@
       },
       "GemBox.Spreadsheet": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Zz9YhBlMIeLKdNA5mb4/2GnRFMBHvHlmL4Aibl62WYByzXIlZjDiCPzfZgQG98b1/o0o/2GVHlofeKWsIU7S2g==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "4AT84JRaKzjEhffS2B1ChBpWX0PU/G1vHcGb6JqZCWxqZ+BQ1GcdbMazmx2UJyd9bXdhn4tC4CSNS3BwFAonMQ==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -552,9 +552,9 @@
     "net7.0": {
       "GemBox.Document": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "RpHGpyvbxBJViTdVsmFnEvc1NQIjm/mNoj1K1ZMefNDNvqmI6/ZOuxBjT+50kRANN5SuXbcFyguaTIgn0gQopA==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "YX7IyZRs6cFGzmxQibXnUKhNUmj/FywUKQ3PRWB9R9TrdmnFxp3+g7JAdO94kMT8Fl6zEbvnRGuZq3SNAcc19g==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -566,9 +566,9 @@
       },
       "GemBox.Pdf": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Th3S19QWoN+52GT2K9zcl2XhyrKjNTlAtT0AnzhTMbhr7k6pbfhZFtUedGAlZGeCH2mBO1K0m9/Q9NgVp3zBng==",
+        "requested": "[2026.3.102, )",
+        "resolved": "2026.3.102",
+        "contentHash": "LUqokT7XvCONWIe4hL3oOjLyypI47tRAsthCloXu7Z9x+VjaIVS+LlcKhiqXuQg4fzmN4IC6N2gBNr8AjvbovA==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -581,9 +581,9 @@
       },
       "GemBox.Presentation": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "PwVVQf2EQ4nNJmovrhYvw9sZxQ4mioLKMv0uJTKfj2onVWTxQnUynMZx5qYljZJt/N+gZOgHJto0isk+RupZ5A==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "it2AcJSuBZYB6iY/cneEdgZ8ZZW8bNpKc90574aiOlNzNAkh6kXgcAzf3GgyBh+f55X/XzE/wIacJuuQ10phdQ==",
         "dependencies": {
           "Microsoft.Bcl.Numerics": "9.0.0",
           "Portable.BouncyCastle": "1.9.0",
@@ -593,9 +593,9 @@
       },
       "GemBox.Spreadsheet": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Zz9YhBlMIeLKdNA5mb4/2GnRFMBHvHlmL4Aibl62WYByzXIlZjDiCPzfZgQG98b1/o0o/2GVHlofeKWsIU7S2g==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "4AT84JRaKzjEhffS2B1ChBpWX0PU/G1vHcGb6JqZCWxqZ+BQ1GcdbMazmx2UJyd9bXdhn4tC4CSNS3BwFAonMQ==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -723,9 +723,9 @@
     "net8.0": {
       "GemBox.Document": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "RpHGpyvbxBJViTdVsmFnEvc1NQIjm/mNoj1K1ZMefNDNvqmI6/ZOuxBjT+50kRANN5SuXbcFyguaTIgn0gQopA==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "YX7IyZRs6cFGzmxQibXnUKhNUmj/FywUKQ3PRWB9R9TrdmnFxp3+g7JAdO94kMT8Fl6zEbvnRGuZq3SNAcc19g==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -737,9 +737,9 @@
       },
       "GemBox.Pdf": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Th3S19QWoN+52GT2K9zcl2XhyrKjNTlAtT0AnzhTMbhr7k6pbfhZFtUedGAlZGeCH2mBO1K0m9/Q9NgVp3zBng==",
+        "requested": "[2026.3.102, )",
+        "resolved": "2026.3.102",
+        "contentHash": "LUqokT7XvCONWIe4hL3oOjLyypI47tRAsthCloXu7Z9x+VjaIVS+LlcKhiqXuQg4fzmN4IC6N2gBNr8AjvbovA==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -752,9 +752,9 @@
       },
       "GemBox.Presentation": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "PwVVQf2EQ4nNJmovrhYvw9sZxQ4mioLKMv0uJTKfj2onVWTxQnUynMZx5qYljZJt/N+gZOgHJto0isk+RupZ5A==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "it2AcJSuBZYB6iY/cneEdgZ8ZZW8bNpKc90574aiOlNzNAkh6kXgcAzf3GgyBh+f55X/XzE/wIacJuuQ10phdQ==",
         "dependencies": {
           "Microsoft.Bcl.Numerics": "9.0.0",
           "Portable.BouncyCastle": "1.9.0",
@@ -764,9 +764,9 @@
       },
       "GemBox.Spreadsheet": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Zz9YhBlMIeLKdNA5mb4/2GnRFMBHvHlmL4Aibl62WYByzXIlZjDiCPzfZgQG98b1/o0o/2GVHlofeKWsIU7S2g==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "4AT84JRaKzjEhffS2B1ChBpWX0PU/G1vHcGb6JqZCWxqZ+BQ1GcdbMazmx2UJyd9bXdhn4tC4CSNS3BwFAonMQ==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -883,9 +883,9 @@
     "net9.0": {
       "GemBox.Document": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "RpHGpyvbxBJViTdVsmFnEvc1NQIjm/mNoj1K1ZMefNDNvqmI6/ZOuxBjT+50kRANN5SuXbcFyguaTIgn0gQopA==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "YX7IyZRs6cFGzmxQibXnUKhNUmj/FywUKQ3PRWB9R9TrdmnFxp3+g7JAdO94kMT8Fl6zEbvnRGuZq3SNAcc19g==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -897,9 +897,9 @@
       },
       "GemBox.Pdf": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Th3S19QWoN+52GT2K9zcl2XhyrKjNTlAtT0AnzhTMbhr7k6pbfhZFtUedGAlZGeCH2mBO1K0m9/Q9NgVp3zBng==",
+        "requested": "[2026.3.102, )",
+        "resolved": "2026.3.102",
+        "contentHash": "LUqokT7XvCONWIe4hL3oOjLyypI47tRAsthCloXu7Z9x+VjaIVS+LlcKhiqXuQg4fzmN4IC6N2gBNr8AjvbovA==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -912,9 +912,9 @@
       },
       "GemBox.Presentation": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "PwVVQf2EQ4nNJmovrhYvw9sZxQ4mioLKMv0uJTKfj2onVWTxQnUynMZx5qYljZJt/N+gZOgHJto0isk+RupZ5A==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "it2AcJSuBZYB6iY/cneEdgZ8ZZW8bNpKc90574aiOlNzNAkh6kXgcAzf3GgyBh+f55X/XzE/wIacJuuQ10phdQ==",
         "dependencies": {
           "Microsoft.Bcl.Numerics": "9.0.0",
           "Portable.BouncyCastle": "1.9.0",
@@ -924,9 +924,9 @@
       },
       "GemBox.Spreadsheet": {
         "type": "Direct",
-        "requested": "[2026.2.100, )",
-        "resolved": "2026.2.100",
-        "contentHash": "Zz9YhBlMIeLKdNA5mb4/2GnRFMBHvHlmL4Aibl62WYByzXIlZjDiCPzfZgQG98b1/o0o/2GVHlofeKWsIU7S2g==",
+        "requested": "[2026.3.103, )",
+        "resolved": "2026.3.103",
+        "contentHash": "4AT84JRaKzjEhffS2B1ChBpWX0PU/G1vHcGb6JqZCWxqZ+BQ1GcdbMazmx2UJyd9bXdhn4tC4CSNS3BwFAonMQ==",
         "dependencies": {
           "HarfBuzzSharp": "7.3.0.3",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",

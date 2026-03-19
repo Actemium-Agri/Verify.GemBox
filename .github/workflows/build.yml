@@ -50,7 +50,7 @@ jobs:
       run: dotnet restore src/Verify.GemBox.sln
 
     - name: Build
-      run: dotnet build src/Verify.GemBox.sln --no-restore --configuration Release /p:Version=${{ steps.transformed_version_step.outputs.NuGetSemVer }}
+      run: dotnet build src/Verify.GemBox.sln --no-restore --configuration Release /p:Version=${{ steps.version_step.outputs.FullSemVer }}
 
     - name: Test
       run: dotnet test src/Verify.GemBox.sln --no-build --configuration Release --verbosity normal

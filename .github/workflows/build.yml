@@ -1,9 +1,6 @@
 name: Build
 
-on:
-  push:
-  pull_request:
-    branches: [ "main" ]
+on: [push, pull_request]
 
 jobs:
   build:
@@ -15,7 +12,6 @@ jobs:
       DOTNET_NOLOGO: true
 
     permissions:
-      contents: read
       id-token: write
 
     steps:
@@ -57,15 +53,15 @@ jobs:
 
     - name: Pack
       run: dotnet pack src/Verify.GemBox.sln --no-build --configuration Release --include-symbols /p:Version=${{ steps.transformed_version_step.outputs.NuGetSemVer }} /p:SymbolPackageFormat=snupkg
-      if: github.event_name == 'push'
+      if: github.ref_name != 'main'
 
     - name: NuGet login (OIDC → temp API key)
       uses: NuGet/login@v1
       id: login
       with:
         user: ${{ secrets.NUGET_USER }}
-      if: github.event_name == 'push'
+      if: github.ref_name != 'main'
 
     - name: Push to NuGet
       run: dotnet nuget push "**/bin/Release/*.nupkg" --api-key "${{ steps.login.outputs.NUGET_API_KEY }}" --source https://api.nuget.org/v3/index.json
-      if: github.event_name == 'push'
+      if: github.ref_name != 'main'

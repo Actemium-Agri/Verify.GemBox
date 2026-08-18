@@ -46,16 +46,17 @@
       },
       "Verify.ImageMagick": {
         "type": "Direct",
-        "requested": "[3.8.6, )",
-        "resolved": "3.8.6",
-        "contentHash": "G1AOMyAz3JNposbHFMIZeNHjD7dLTYxXA7YKW/QKk7UXblmNlIRXpWflRajoDEfHehFuMxOPQl0GEL/geIZdeg==",
+        "requested": "[3.10.0, )",
+        "resolved": "3.10.0",
+        "contentHash": "fVvgSiNOzuM6kzY92NUrBdoU8V6c3QC9GURUHtc5hlOjKomJcPRzPFdgBg0G90zYFn+W5TI4zCbILOSFxVGuWQ==",
         "dependencies": {
-          "Argon": "0.33.5",
-          "DiffEngine": "19.0.0",
-          "EmptyFiles": "8.17.2",
-          "Magick.NET-Q16-AnyCPU": "14.11.0",
+          "Argon": "0.35.2",
+          "DeterministicPdf": "1.0.2",
+          "DiffEngine": "19.3.3",
+          "EmptyFiles": "8.18.2",
+          "Magick.NET-Q16-AnyCPU": "14.15.0",
           "SimpleInfoName": "3.2.0",
-          "Verify": "31.13.2"
+          "Verify": "31.27.0"
         }
       },
       "Verify.NUnit": {
@@ -73,20 +74,25 @@
       },
       "Argon": {
         "type": "Transitive",
-        "resolved": "0.33.5",
-        "contentHash": "J6821zxO+EqMzO9C/V5uiWc2eBGyzN7Z8Z0xq3Q1/e6IxYcHDA32OgiZX5/7/f8rVPQQa7aYtm6f0UfnrgKNBg=="
+        "resolved": "0.35.2",
+        "contentHash": "o0I9+qxk1r4EB8vqRaC49kHog8/UUuFPSqpUwi5husDuqTBbbWIhLOwO2uhzA6pdM4UJoz+owN/c1p05YxAs3A=="
       },
       "BouncyCastle.Cryptography": {
         "type": "Transitive",
         "resolved": "2.4.0",
         "contentHash": "SwXsAV3sMvAU/Nn31pbjhWurYSjJ+/giI/0n6tCrYoupEK34iIHCuk3STAd9fx8yudM85KkLSVdn951vTng/vQ=="
       },
+      "DeterministicPdf": {
+        "type": "Transitive",
+        "resolved": "1.0.2",
+        "contentHash": "slPbCXy5AO7pzFxbKhVdyBE2k1A7dxRQ2DovqLkFerbjT9f1G5jx/a6dJMQdm1ALStuPG6Cy6RMhylHxhGHKZA=="
+      },
       "DiffEngine": {
         "type": "Transitive",
-        "resolved": "19.0.0",
-        "contentHash": "QtT6bdSW93UwE3f3vy5/qQRQIGtybA6uU1qyF4NvlCUga4esTTA6T4o8gENj2s8YJX8wh1MR10L6ypQ8A5dFAg==",
+        "resolved": "19.3.3",
+        "contentHash": "9dgeYqMOYA5BREQj5PNEuNHOe3q8xmkLj9jPPbxrJ2roxupVmJ3LlUgForWlxXgt0zoutfPE+sbVjif3YHC3zw==",
         "dependencies": {
-          "EmptyFiles": "8.17.2"
+          "EmptyFiles": "8.18.2"
         }
       },
       "DiffPlex": {
@@ -96,8 +102,8 @@
       },
       "EmptyFiles": {
         "type": "Transitive",
-        "resolved": "8.17.2",
-        "contentHash": "2oyDVmM/DU3g0h2kqcV05zjOUfo9AdwPoduIGh0LZL6nXqSN4qhZna2M/aJoYiQrmIznJ52wxYCmxDnWaRZ1JQ=="
+        "resolved": "8.18.2",
+        "contentHash": "9TKkDyiREYxgTDeoBrVlmBP83w7Hjhj5sDACQhketSgRhgaXRKpjPW7sazx3PEOg0i5PbrwLjoJG9caavf69hg=="
       },
       "HarfBuzzSharp": {
         "type": "Transitive",
@@ -120,16 +126,16 @@
       },
       "Magick.NET-Q16-AnyCPU": {
         "type": "Transitive",
-        "resolved": "14.11.0",
-        "contentHash": "L6IvAG7scg/nma67v0JUTKL9SOpu5FY7O9W3SElMTPm4Iu62/KC3A+rGa5KwUletRXsjf67RaAhDh47/fug2rg==",
+        "resolved": "14.15.0",
+        "contentHash": "TB1Wc2hojzOMJ4tkBcXubASgtYSjEovoFpOjnfTjJXKVtKHGaN60juR+5YWFFhch1UUENcThaRWUXOWRcoGKkQ==",
         "dependencies": {
-          "Magick.NET.Core": "14.11.0"
+          "Magick.NET.Core": "14.15.0"
         }
       },
       "Magick.NET.Core": {
         "type": "Transitive",
-        "resolved": "14.11.0",
-        "contentHash": "MdNdyZJ7CjTV0zc4G1dGz8RIis5ZizYOMRrQ4+WghHYq5Hn151VNPPFpRsZ3fw61klegTFbzYRyMQjfl/sYW3w=="
+        "resolved": "14.15.0",
+        "contentHash": "xgD1zqb4KQ1gMQcd3eIRp8hFMHBxzW9fOpLLDR7BWN0oCwZ0i6NW7rIUiCdsEi/NuZi1UlCLWBHh3v7Y2E3LIw=="
       },
       "Microsoft.ApplicationInsights": {
         "type": "Transitive",
@@ -256,7 +262,7 @@
           "GemBox.Pdf": "[2026.3.102, )",
           "GemBox.Presentation": "[2026.3.103, )",
           "GemBox.Spreadsheet": "[2026.3.103, )",
-          "Verify": "[31.13.2, )"
+          "Verify": "[31.28.0, )"
         }
       },
       "GemBox.Document": {
@@ -308,12 +314,12 @@
       },
       "Verify": {
         "type": "CentralTransitive",
-        "requested": "[31.13.2, )",
-        "resolved": "31.13.2",
-        "contentHash": "RwN7iLJTPmD+iSNuOulhrPx6KJitcnVB/nulAtHm+6xaCAPyEPwq9W/OQ1oITaxhK0/lyATPDO7iFrOrlv+X6A==",
+        "requested": "[31.28.0, )",
+        "resolved": "31.28.0",
+        "contentHash": "rPmMCEEcTzui+yGYQfrloUutPC5ZK0NOBdP1tpTbf+TzU35lWSlzmDzD78Os2eN5FAWPwXy89LxQLqNqEDaVaw==",
         "dependencies": {
-          "Argon": "0.33.5",
-          "DiffEngine": "18.4.2",
+          "Argon": "0.35.2",
+          "DiffEngine": "19.3.3",
           "SimpleInfoName": "3.2.0"
         }
       }

@@ -43,16 +43,16 @@ jobs:
         echo "NuGetSemVer=$version" >> $env:GITHUB_OUTPUT
 
     - name: Restore dependencies
-      run: dotnet restore src/Verify.GemBox.sln
+      run: dotnet restore src/Verify.GemBox.slnx
 
     - name: Build
-      run: dotnet build src/Verify.GemBox.sln --no-restore --configuration Release /p:Version=${{ steps.version_step.outputs.FullSemVer }}
+      run: dotnet build src/Verify.GemBox.slnx --no-restore --configuration Release /p:Version=${{ steps.version_step.outputs.FullSemVer }}
 
     - name: Test
-      run: dotnet test src/Verify.GemBox.sln --no-build --configuration Release --verbosity normal
+      run: dotnet test src/Verify.GemBox.slnx --no-build --configuration Release --verbosity normal
 
     - name: Pack
-      run: dotnet pack src/Verify.GemBox.sln --no-build --configuration Release --include-symbols /p:Version=${{ steps.transformed_version_step.outputs.NuGetSemVer }} /p:SymbolPackageFormat=snupkg
+      run: dotnet pack src/Verify.GemBox.slnx --no-build --configuration Release --include-symbols /p:Version=${{ steps.transformed_version_step.outputs.NuGetSemVer }} /p:SymbolPackageFormat=snupkg
       if: github.ref_name != 'main'
 
     - name: NuGet login (OIDC → temp API key)
